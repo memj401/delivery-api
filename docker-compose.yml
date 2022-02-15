@@ -1,0 +1,8 @@
+version: '3.8'
+services: 
+    api:
+        build: .
+        volumes: 
+            - ./src:/code
+        ports: 
+            - 5000:5000
